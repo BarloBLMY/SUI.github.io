@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Mainpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="sitenl">
+        <center>
+            <a href="Mainpage.html"><img src="S.U.I-Logo_1_446x441.png"></a>
+        </center>
+
+    </div>
+    <div class="topnav">
+
+        <a class="active" href="Mainpage.html">Home</a>
+        <a href="information.html"> About Us </a>
+        <a href="Contact.html">Contact</a>
+        <a class="search" href="Search.html"> Search</a>
+
+
+        <button class="active" onclick="document.getElementById('id02').style.display='block'" style="width:auto;height:0; font-size: 17px; background-color:#000000; text-align: center; line-height: 3.5px;" class="login">Login</button>
+
+        <div id="id02" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+                    <img src="1200px-Avatar_icon_green.svg.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required="">
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required="">
+
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">forgot my password?</a></span>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <button class="active" onclick="document.getElementById('id01').style.display='block'" style="width:auto;height:0; font-size: 17px; background-color:#000000; text-align: center; line-height: 3.5px;">Sign Up</button>
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h2>Sign Up</h2>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required="">
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required="">
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required="">
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+
+                    <p>By creating an account you agree to our </p><br><a href="Mainpage.html" style="background-color:#FEFEFE; color:#0097FF;">Terms &amp; Privacy</a>
+
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <center>
+            <h1>S.U.I</h1>
+        </center>
+
+    </div>
+
+
+
+    <div style="padding-left:16px">
+
+        <p>
+            <center>
+
+                <h2>OQular clip - Eyewear protection reimagined</h2>
+            </center>
+
+            <center>
+                <img src="cover-glasses.png">
+            </center>
+            <button id="myBtn">Open Modal</button>
+            <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class="close" id="span">&times;</span>
+                    <p>
+                        <center>
+                            <h2>OQular clip - Eyewear protection reimagined</h2>
+                        </center>
+                        <br> Convenient, versatile, slim and sleek lens cover for ALL your eyewear. Protect your lenses from being scratched, no matter where you put them. Cases are just too big and bulky to carry comfortably. NOT designed for the modern
+                        day lifestyle.<br> Prescription glasses and sunglasses are expensive! Looking through a pair of scratched lenses is not only annoying but potentially dangerous.
+                        <br> A hand made, stylish lens protector that’s so small it can be carried on your keys, or in the smallest of bags. Never again feel stressed about scratching your favourite pair of eyewear!
+                        <br> The perfect combination between style, convenience and great protection. Designed to be used for both glasses and sunglasses, perfectly sized to fit most shapes or styles, big or small.
+                        <h4>How do they Work?</h4>
+                        1mm magnets on each side of the clip keep them lightly gripped to your glasses. The soft material inside makes sure the lens is protected on both sides.
+                        <p>
+                            <h4> How do I use them</h4>
+                            Being magnetic also means that they can happily stick to any metal surface, from a fridge door to super cool magnetic wooden block that's perfect for holding your keys.
+                            <br> Once attached to your glasses you can put them anywhere, upside down on the table, in a bag full of sharp things. They will always be protected.
+                            <br> OQular Clip is so thin it will fit into the smallest of bags. Perfect if heading out for the night!
+                        </p>
+
+                    </p>
+                </div>
+
+            </div>
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                    modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+        </p>
+
+
+
+        <p>
+            <center>
+                <h2>Jadelabo J1 - Beautiful, Powerful, and Smart IDEX 3D Printer </h2>
+            </center>
+            <p> Say hello to Jadelabo J1, a powerful 3D printer designed for makers and creators. With two independent print heads, you can speed up your workflow by 2X, or print two different materials in one single object. Even fancier, it has the easiest
+                calibration, the ecosystem with software and support, and all the smart features we expect from an easy-to-use IDEX 3D printer. </p>
+            <p> We’re a group of makers who got tired of low-end 3D printers and poor customer support. We’re also 3D printer creators have led the product design, engineering, and mass production for two high-quality 3D printers for four years in our previous
+                jobs. Starting Jadelabo team, we want to bring high quality and innovative maker tools to people who like to create and amaze us with their ideas and creations. </p>
+            <h4> What can you print with? </h4>
+            Jadelabo J1’s nozzle temperature can reach up to 300°C. It also has an optional Enclosed model. From commonly used materials like PLA, PETG, to advanced materials like Nylon (PA), PC, TPU, ABS, ASA, PVA, and HIPS, Jadelabo J1 can print them all.
+            <br> Take 3D printing to new heights! No longer are you limited to single material applications. Jadelabo J1 features an Independent Dual Extruders (IDEX) system that allows various combinations of different materials.
+            <h4> The amazing features that set Jadelabo J1 apart.</h4>
+            Support removal has never been easier. The dissolvable support structures make post-processing much easier, leading to a better surface quality for your parts, and let you print complex geometries that would otherwise be impossible. When printing premium
+            materials, you can save money by printing the supports with a less expensive material.
+            <br>Jadelabo J1 features an Independent Dual Extrusion System (IDEX) that allows you to print in different materials that have vastly different properties. It also reduces contamination of materials or colors, giving you a neat and clean multi-material
+            print.
+            <br>You can print two identical parts simultaneously. This is an advanced feature compared to single / dual extruders 3D printers. Double productivity, without extra cost.
+            <br>Imagine printing an object and a mirror of the object at the same time! Jadelabo J1 enables more efficient symmetric object printing. Cut your wait time in half, without sacrificing print quality.
+
+            <center><img src="3D-print.jpg"> </center>
+
+        </p>
+
+        <p>
+            <center>
+                <h2>OBSBOT Me: AI-Powered, Auto-Tracking Phone Mount</h2>
+            </center>
+            <center>
+                <p> <img src="j.png">
+                </p>
+                <p>
+                    <img src="obsot.png">
+                </p>
+                <p>
+                    <img src="d3678f4edec76097a101d61f697e7117_original.png">
+                </p>
+                <p>
+                    <img src="obsot2.png">
+                </p>
+                <p>
+                    <img src="180-obsot.png">
+                </p>
+            </center>
+        </p>
+        <center>
+            <p>
+                <h2> JoGo™ - The Coffee Brewing Straw</h2>
+        </center>
+        <p>
+            A compact, portable, and sustainable way to brew and enjoy a robust cup of coffee, all in the same mug. No machines, no waste, and no hassle.</p>
+        <center>
+            <p>
+                <img src="spoon-color.png">
+                <br>
+                <img src="spoon.png">
+            </p>
+        </center>
+        <p>
+            JoGo is a reusable straw that is equipped with a patent-pending mesh filter that allows you to enjoy a robust cup of coffee, loose-leaf tea, or that fresh mojito, anywhere and anytime.
+            <br> Simply drop in a scoop of your favorite ground coffee, add hot water, pop in your JoGo, and enjoy! The perfect companion for your outdoor, sustainable, and on-the-go lifestyle.
+        </p>
+        <center>
+            <p>
+                <img src="spoon2.png">
+            </p>
+        </center>
+        <center>
+            <p>
+                <h2> iSwift Pi: Paper-Thin Durable Laptop Desk For Bed and Office</h2>
+        </center>
+        <center>
+            <p> <img src="stand1.jpg"></p>
+        </center>
+        <h4> Story</h4>
+        <p>Working in bed or on the couch has become more normal than going into the office during the quarantine time. However, if you've ever tried to use a laptop while sitting on a couch, bed, or chair, you know how uncomfortable it could be.
+        </p>
+        <center>
+            <p>
+                <img src="stand2.jpg">
+            </p>
+        </center>
+        <p>
+            Devised to be a lap desk and a laptop stand, iSwift Pi is a game changer, which makes you feel cozy while having a good posture when you are navigating a new WFH situation.
+        </p>
+        <center>
+            <p>
+                <img src="stand4.jpg">
+            </p>
+        </center>
+        <p>
+            iSwift Pi has two triangle legs that can be folded flat or extended to give you a raised surface to work from, making sure you have a nice and comfortable time using your laptop at bed, sofa or anywhere.</p>
+        <center>
+            <p>
+                <img src="stand5.jpg">
+            </p>
+        </center>
+        <p>The solid legs work great whether you place it on the bed while you work, or on a table to get a suitable angle to work from while standing</p>
+        <center>
+            <p>
+                <img src="stand3.jpg">
+                <img src="stand6.png">
+                <img src="stand7.jpg">
+            </p>
+        </center>
+    </div>
+
+    <fieldset>
+        <footer>© Copyright 2021 HTML.am</footer>
+        <p style="color: white">Author: Barbod LOGHMANI</p>
+        <p>
+            <a href="mailto:sus.sitestartup@gmail.com">sus.sitestartup@gmail.com</a></p>
+        <br>
+        <ul>
+            <li>
+                <a href="https://fr-fr.facebook.com/" class="fa fa-facebook"> </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/home" class="fa fa-twitter"> </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"> </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/results?search_query=barbod+loghmani" class="fa fa-youtube"> </a>
+            </li>
+        </ul>
+        <br>
+    </fieldset>
+</body>
+
+</html>
